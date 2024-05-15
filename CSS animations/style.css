@@ -1,146 +1,140 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  
-  html {
-    font-size: 10px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  }
-  body {
-    font-family: "Open Sans", sans-serif;
-    max-width: 1920px;
-    min-height: 100vh;
-    margin: auto;
-    font-size: 1.6rem;
-    background-color: white;
-  }
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1920px;
+  min-height: 100vh;
+  margin: auto;
+  font-size: 1.6rem;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    margin-block-end: 15px;
-    width: 1210px;
-    height: 50px;
-  }
-  header > h2 > img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-block-end: 15px;
+  width: 1210px;
+  height: 50px;
+}
+header > h2 > img {
   height: 25px;
   width: 25px;
- 
-  }
-  header > a {
-    display: flex;
-  }
-  
-  header ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-  }
- 
-  
-  header nav a {
-   
-    color:#212121;
-  }
-  a {
-    text-decoration: none;
-  }
-  .container {
-    max-width: 1346px;
-    margin: auto;
-    padding-inline: 15px;
-  }
-  .rectangle{
-  width: 1920px;
-  height: 360px;
-  margin-block-end: 15px;
 }
-.rectangle> div> img{
-    width: 1920px;
-    height: 359.2px;
-}
-.team{
-    width: 1200.19px;
-    height: 1151px;
-    margin: auto;
-    text-align: center;
-}
-.top-team{
-    display: flex;
-    width: 1200.19px;
-    height: 550.5px;
-    justify-content: space-between;
-    align-items: center;
-    margin-block-end: 80px;
-   
-}
-.top-team >  div >img{
-    width: 283px;
-    height: 450.5px;
-    border-radius: 15px;
-    margin-top: 75px;
-}
-.top-team > div> h1{
-    font-size: 25px;
-   
- 
-}
-.top-team > div> h2{
-    font-size: 20px;
-   
-}
-.end-team{
-    display: flex;
-    width: 1200.19px;
-    height: 550.5px;
-    justify-content: space-between;
-    align-items: center;
-    margin-block-end: 200px;
-   
-    
-}
-.end-team > div> h1{
-    font-size: 25px;
-   
-}
-.end-team > div> h2{
-    font-size: 20px;
-   
-}
-.end-team >  div >img{
-    width: 283px;
-    height: 450.5px;
-    border-radius: 15px;
-}
-.end{
-    display: flex;
-    width: 1210px;
-    height: 370px;
-    justify-content: space-between;
-   
-  margin: auto;
-}
-.end > .selhono > h1{
-    margin-block-end: 35px;
-    text-align: start;
+header > a {
+  display: flex;
 }
 
-.end-icons{
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+header nav a {
+  color: #212121;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1346px;
+  margin: auto;
+  padding-inline: 15px;
+}
+.rectangle {
+  /* width: 1920px; */
+  /* height: 360px; */
+  margin-block-end: 15px;
+}
+.rectangle > div > img {
+  width: 1920px;
+  height: 359.2px;
+}
+.team {
+  width: 1200.19px;
+  height: 1151px;
+  margin: auto;
+  text-align: center;
+}
+.top-team {
+  display: flex;
+  width: 1200.19px;
+  height: 550.5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 80px;
+}
+.top-team > div > img {
+  width: 283px;
+  height: 450.5px;
+  border-radius: 15px;
+  margin-top: 75px;
+}
+.top-team > div > h1 {
+  font-size: 25px;
+}
+.top-team > div > h2 {
+  font-size: 20px;
+}
+.end-team {
+  display: flex;
+  width: 1200.19px;
+  height: 550.5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 200px;
+}
+.end-team > div > h1 {
+  font-size: 25px;
+}
+.end-team > div > h2 {
+  font-size: 20px;
+}
+.end-team > div > img {
+  width: 283px;
+  height: 450.5px;
+  border-radius: 15px;
+}
+.end {
+  display: flex;
+  width: 1210px;
+  height: 370px;
+  justify-content: space-between;
+
+  margin: auto;
+}
+.end > .selhono > h1 {
+  margin-block-end: 35px;
+  text-align: start;
+}
+
+.end-icons {
   display: flex;
   justify-content: start;
   gap: 25px;
   margin-left: -25px;
 }
-.rasm{
+.rasm {
   display: flex;
   gap: 25px;
   justify-content: center;
 }
-.copy{
+.copy {
   display: flex;
   justify-content: center;
   align-items: center;
